@@ -3,10 +3,8 @@ const authRouter = Router()
 const controller = require('./controller')
 
 /**
- * @route /api/v2/me/report/jobs/overview/:companyId
  * @method GET
- * @description Endpoint for overview of the job section
- * @access private
+ * @description Endpoint for data of the campaigns
  */
 authRouter.get('/details', controller.campaignList)
 
